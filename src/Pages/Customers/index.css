@@ -1,0 +1,26 @@
+.ramu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+
+}
+.customerbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+}
+.customerAdd{
+    border: 1px solid black;
+    width: 70px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: white;
+   
+}

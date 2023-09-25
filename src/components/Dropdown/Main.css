@@ -1,0 +1,174 @@
+h3 {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.fa-book {
+    background-color: #FFEFF3;
+}
+
+.fa-users {
+    background-color: #EFF2FF;
+}
+
+.fa-headphones {
+    background-color: #E9FBED;
+}
+
+.fa-comments {
+    background-color: #FBF3E3;
+}
+
+
+/* i{
+    border: 1px solid;
+    border-radius:
+} */
+
+.main {
+    display: flex;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.rside {
+    width: 70%;
+    background-color: #f3f3f3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+
+}
+
+.lside {
+    width: 30%;
+    padding: 1rem;
+
+}
+
+/* --------------------------------------- */
+
+.Drop-header {
+    list-style: none;
+    display: flex;
+}
+
+.Drop-header .drop-item {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 15px;
+    color: #958383;
+    cursor: pointer;
+}
+
+.drop-item i {
+    padding: 0 0.5rem;
+}
+
+.drop-item:hover {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.dropdown-menu {
+    width: 660px;
+
+    top: 6px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+    z-index: 1;
+
+}
+
+/* ------------------------------------------------------------ */
+
+.help {
+    width: 50%;
+    height: 100%;
+
+}
+
+.helpcontainer,
+.learncontainer {
+    padding: 2rem 1.5rem;
+}
+
+.helpheader i,
+.learnheader i, .Coimmunityheader i{
+    padding:1.5rem;
+    display: flex;
+    align-items: center;
+
+    border-radius: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.helpheader {
+    display: flex;
+    padding: 1.5rem 0;
+
+}
+
+.helpheader:hover {
+    background-color: #FFEFF3;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 0 0 0 1rem;
+}
+
+p {
+    font-size: 13px;
+    padding-top: .5rem;
+
+}
+
+.Coimmunityheader {
+    display: flex;
+    padding: 1rem 0;
+
+}
+
+.Coimmunityheader:hover {
+    background-color: #EFF2FF;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+/* ------------------------------------- */
+
+.learnheader {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+.learnheader:hover {
+    background-color: #E9FBED;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.learncontent {
+    padding: 0 0 0 1.5rem;
+}
+
+.learncontainer .Coimmunityheader:hover {
+    background-color: #FBF3E3;
+}
+
+.learn {
+    width: 50%;
+
+}

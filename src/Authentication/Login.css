@@ -1,0 +1,26 @@
+
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(98, 132, 244);
+}
+.logincard{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    align-items: center;
+    
+}

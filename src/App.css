@@ -1,0 +1,331 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.AppHeader{
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 4px 20px 4px 12px;
+border-bottom: 1px solid rgba(244, 243, 243, 0.5);
+background-color: #1f7fa2;
+}
+.AppFooter{
+  height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.SideMenuandPageContent{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.SideMenu{
+ height: 100%;
+}
+.SideMenuVertical{
+   height: 100%;
+}
+
+
+.PageContent{
+ margin-left: 20px;
+}
+.brdr{
+  border-radius: 50%;
+}
+.cardbg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(234, 249, 230, 0.796);
+ 
+  height: 100vh;
+  width: 100%;
+}
+.card{
+
+ 
+
+  width: 400px;
+  height: 590px;
+  /* background-color: #e3e6e8; */
+  /* background-color: rgb(255, 254, 254); */
+  background-color:white;
+ text-align: center;
+ border-radius: 10px;
+ margin-top: 10px;
+ box-shadow: -22px 16px 100px 19px #7FFFD4;
+ 
+ 
+}
+.details{
+  display: flex;
+}
+.card1{
+  width: 400px;
+  height: 65px;
+  
+  background-color: #00c9b7;
+  /* background-color: #5EC5A9; */
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+  
+}
+.card2{
+  width: 380px;
+  margin: 10px;
+  border-radius:0;
+  height: 170px;
+  background-color: rgb(255, 254, 254);
+  box-shadow: -22px 16px 33px -18px;
+  display: flex;
+  
+  flex-direction: row;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+
+  
+}
+.toprow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.card3{
+  width: 400px;
+  height: 305px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+
+  
+}
+
+.title{
+  font-weight: 700;
+  margin-top: 35px;
+ 
+}
+.title1{
+  width: 250px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-left: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.title2{
+  width: 250px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 13px;
+  font-weight: 700;
+  margin-left: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.title3{
+  width: 250px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 13px;
+  font-weight: 700;
+  margin-left: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.title4{
+  width: 250px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 13px;
+  font-weight: 700;
+  margin-left: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.title5{
+  width: 250px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 100px;
+  font-weight: 700;
+  margin-left: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.sidebarFriendList{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebarFriend{
+  width:300px ; 
+  height: 70px;
+   display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: justify;
+  
+ 
+}
+/* p{
+  text-align: justify;
+} */
+.sidebarFriendName{
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 15px;
+  
+}
+.sidebarFriendImg{
+  width: 45px;
+  height: 45px;
+  border-radius: 35%;
+  object-fit: cover;
+ margin: 17px;
+
+}
+.sidebarHr{
+  margin: 18px 15px 5px 15px ;
+}
+.aabb{
+  font-size: small;
+ 
+  
+}
+
+ 
+
+.star {
+  height: 100px;
+  width: 100px;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 10%, 61% 35%, 90% 35%, 68% 59%, 79% 85%, 50% 70%, 20% 85%, 33% 57%, 10% 35%, 39% 35%);
+  text-align: center;
+  background:#FFDF00;
+  color: white;
+  align-items: center;
+  font-weight: 900;
+  font-size: 17px;
+  
+}
+
+.star::before {
+  display: inline-block;
+  height: 100%;
+  background: blue;
+  vertical-align: middle;
+  content: '';
+}
+.fa {
+  font-size: 15px;
+}
+.lost{
+  color:  #f1f1f4;;
+}
+
+
+.checked {
+  color: #FFDF00;
+}
+
+.heading{
+  display: flex;
+  margin-top: 5px;
+}
+p{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.progressbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  /* justify-content: space-around; */
+  width: 200px;
+  margin-top: 16px;
+
+}
+.progressbar1{
+ 
+}
+.bigstar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.side {
+  /* float: left;
+  width: 15%;
+  margin-top: 10px; */
+}
+
+.middle {
+ margin-right:7px ;
+  
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+.left{
+  text-align: left;
+  width: 30px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100px;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 14px;border-radius: 3px; background-color:#FFDF00;}
+.bar-4 {width: 50%; height: 14px;border-radius: 3px; background-color:#FFDF00;}
+.bar-3 {width: 40%; height: 14px;border-radius: 3px; background-color:#FFDF00;}
+.bar-2 {width: 30%; height: 14px;border-radius: 3px; background-color:#FFDF00;}
+.bar-1 {width: 20%; height: 14px;border-radius: 3px; background-color:#FFDF00;}
+
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+ 
+}

@@ -1,0 +1,127 @@
+.uibackground{
+    
+    background-color:#f7fafa;
+    width: 100vw;
+    height: 100vh;
+  
+  
+   
+}
+.circle1{
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 40px -20px rgba(0,0,0,0.3);
+    
+}
+.circle2{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   
+
+   margin: 40px 90px;
+
+  
+}
+.boxpara{
+    justify-content: center;
+   align-items: center;
+   margin-top: 15px;
+   width: 320px;
+   text-align: center;
+    
+   
+    
+}
+.heading {
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.whenused{
+    margin-top:50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 320px;
+   
+}
+.what{
+    /* margin-top:50px ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 320px;
+   
+}
+.whatif{
+    /* margin-top:50px ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 320px;
+   
+}
+.topcircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #e8f0f7;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 65px;
+
+}
+.topdowncircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color:#98c6ee ; */
+    background-color: #2020ba;
+   
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 105px;
+
+
+}
+.topdowncircle{
+    mix-blend-mode: overlay;
+}
+.downtopcircle{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-color: #e8f0f7;
+    position: absolute;
+    margin-top:470px;
+    margin-left: 400px;
+}
+.downcircle{
+    mix-blend-mode: overlay;
+}
+.downcircle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+   
+    background-color: #000000;
+    position: absolute;
+    margin-top:580px;
+    margin-left: 510px;
+}
+.readmore{
+    border: 1px solid rgb(173, 172, 163);
+    width:120px;
+    height: 27px;
+    
+    border-radius: 25px;
+    margin-top: 20px;
+   
+}
